@@ -223,7 +223,7 @@ const RestaurantDetailPage = () => {
             className=" bg-customPurpleLight text-white text-lg font-semibold px-3 py-1 rounded-md hover:bg-customPurpleDark transition duration-300 ease-in-out"
             onClick={handleAddReview}
           >
-            {addLoading ? <span><FaSpinner className='animate-spin' /> Adding...</span> : "Add"}
+            {addLoading ? <span className="flex items-center gap-2"><FaSpinner className='animate-spin' /> Adding...</span> : "Add"}
           </button>
         </div>
       </div>
